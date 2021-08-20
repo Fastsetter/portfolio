@@ -5,11 +5,17 @@ const Projects = () => {
   return (
     <div className={styles.container}>
       {projects.map(project=>(
-        <a className={styles.project} href={'/projects/'+project.id} key={project.id}>
-          {console.log(project.id)}
+        <div className={styles.project} key={project.id}>
+
+          <img src={project.image} alt="" className={styles.projectImage}/>
           <h1>{project.title}</h1>
           <p>{project.description}</p>
-        </a>
+
+          <div className={styles.buttons}>
+            <button>Source Code</button>
+            <button>Demo</button>
+          </div>
+        </div>
       ))}
     </div>
   )

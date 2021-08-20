@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 .nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.nav>h2{
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
 }
