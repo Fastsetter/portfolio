@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Intro from './components/Intro'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
+import Showcase from './components/Showcase'
 export default function Home() {
 
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Intro></Intro>
+      <Showcase></Showcase>
       <Projects></Projects>
     </div>
   )

@@ -1,24 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 .intro{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* flex-direction: column; */
+  flex-direction: column;
   width: 100vw;
   height: max-content;
+  margin-bottom: 400px;
 }
 .textIntro{
+  position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
-  height: 5%;
-  width: 40%;
+  height: max-content;
+  width: 80%;
   margin: 0%;
+  padding: 10px;
+}
+.paragraph{
+  position:absolute;
+  width: 50%;
+  bottom:-60%;
+  font-size: large;
+  color: rgb(58, 0, 34);
+  font-family: 'Indie Flower', cursive;
+  font-weight: 500;
 }
 .showcaseImg{
   padding-top: 50px;
-  width:60%;
+  width:100%;
   height: auto;
 
 }
@@ -101,6 +112,9 @@
   }
 }
 .svg1{
+  position:absolute;
   height: 100px;
   width: auto;
+  right:10%;
+  margin-top: 30px;
 }
