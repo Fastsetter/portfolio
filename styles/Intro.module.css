@@ -1,13 +1,33 @@
+.outerContainer{
+  position: relative;
+  width: 100vw;
+  height: 800px;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
 
 .intro{
+  
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
-  width: 100vw;
-  height: 500px;
-  padding-top: 100px;
+  height: 100%;
+  width: 100%;
 }
+
+.background{
+  position: absolute;
+  top: -50%;
+  left: -15%;
+  height: 90%;
+  width: 150%;
+  background: rgb(245, 201, 59);
+  z-index: -0;
+  transform: rotate(-8deg);
+}
+
 .textIntro{
   position: relative;
   display: flex;
@@ -17,13 +37,14 @@
   width: 500px;
   margin: 0%;
   padding: 10px;
+  z-index: 10;
 }
 .paragraph{
   position:absolute;
   width: 100%;
   font-size: large;
   bottom:-60%;
-  color: rgb(128, 2, 128);
+  color: rgb(255, 255, 255);
   font-family: 'Indie Flower', cursive;
   font-weight: 500;
   text-align: center;
@@ -83,12 +104,12 @@
   position: absolute;
   left: 0;
   animation: typing 1.5s steps(40) infinite;
-  background:rgb(255, 255, 255);
+  background:rgb(245, 201, 59);
 }
 .span{
   font-size: 35px;
   position: relative;
-  color: rgb(241, 174, 28);
+  color: rgb(241, 28, 117);
   font-family: 'Lobster', cursive;
 }
 
@@ -116,10 +137,12 @@
 .svg1{
   height: auto;
   width: 300px;
+  z-index: 3;
 }
 .image{
   height:200px;
   width: 300px;
   margin:0;
   padding: 0;
+  z-index: 3;
 }
