@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className={styles.nav}>
       <h2>My Portfolio</h2>
-      <a href="https://github.com/Fastsetter?tab=repositories"><GitHubIcon/></a>
+      <a href="#"><GitHubIcon/></a>
     </div>
   )
 }
