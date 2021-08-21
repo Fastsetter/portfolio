@@ -33,3 +33,9 @@
   font-weight: 700;
   font-family: 'Indie Flower', cursive;
 }
+
+@media screen and (max-width:550px){
+  .showcase{
+    height: 60vh;
+  }
+}

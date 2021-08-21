@@ -4,7 +4,6 @@
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 50%;
   padding: 10px;
   height: 200vh;
   z-index: 20;
@@ -22,8 +21,9 @@
   justify-content: space-around;
   align-items: center;
   margin-bottom: 50px;
-  box-shadow: 5px 5px 20px rgba(197, 197, 197, 0.356);
+  box-shadow: 5px 5px 20px rgba(90, 90, 90, 0.356);
   z-index: 10;
+  background-color: rgb(136, 190, 252);
 }
 
 
@@ -34,6 +34,8 @@
 .project>p{
   margin: 50px;
   margin: 10px;
+  text-align: center;
+  
 }
 .projectImage{
   width: 100%;
@@ -52,11 +54,11 @@
 }
 
 .buttons>button{
-  background: rgb(255, 255, 255);
+  background: rgb(236, 235, 233);
   border-radius: 10px;
   border: none;
   padding: 10px;
-  color: rgb(5, 5, 5);
+  color: rgb(0, 0, 0);
   transition: all 0.8s ease-in-out;
   box-sizing: border-box;
 }
@@ -65,4 +67,10 @@
   border-radius: 0;
   padding-left:15px;
   padding-right:15px;
+}
+
+@media screen and (max-width:550px){
+  .project{
+    width: 400px;
+  }
 }

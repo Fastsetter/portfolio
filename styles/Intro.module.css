@@ -2,30 +2,32 @@
 .intro{
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
   width: 100vw;
-  height: max-content;
-  margin-bottom: 400px;
+  height: 500px;
+  padding-top: 100px;
 }
 .textIntro{
   position: relative;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   height: max-content;
-  width: 80%;
+  width: 500px;
   margin: 0%;
   padding: 10px;
 }
 .paragraph{
   position:absolute;
-  width: 50%;
-  bottom:-60%;
+  width: 100%;
   font-size: large;
-  color: rgb(58, 0, 34);
+  bottom:-60%;
+  color: rgb(128, 2, 128);
   font-family: 'Indie Flower', cursive;
   font-weight: 500;
+  text-align: center;
+  padding-right:33px;
 }
 .showcaseImg{
   padding-top: 50px;
@@ -112,9 +114,12 @@
   }
 }
 .svg1{
-  position:absolute;
-  height: 100px;
-  width: auto;
-  right:10%;
-  margin-top: 30px;
+  height: auto;
+  width: 300px;
+}
+.image{
+  height:200px;
+  width: 300px;
+  margin:0;
+  padding: 0;
 }
