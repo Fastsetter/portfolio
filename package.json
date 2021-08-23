@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -13,10 +13,16 @@
     "next": "11.1.0",
     "react": "17.0.2",
     "react-animations": "^1.0.0",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "static-server": "^2.2.1"
   },
   "devDependencies": {
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.0"
+  },
+  "extends": "next",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }
