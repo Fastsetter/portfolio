@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: clamp(100vh,100vh,100vh);
+  height: 800px;
   margin: 100px 0px;
   z-index: 4;
   background-color:#001220;
@@ -38,6 +38,7 @@
   .showcase{
     height: 60vh;
   }
+  
 }
 
 @media screen and (max-width:420px){
