@@ -17,6 +17,8 @@ const Projects = () => {
           </div>
         </div>
       ))}
+      {/* <div className={`${styles.spacer} ${styles.curveBack}`}></div> */}
+
     </div>
   )
 }

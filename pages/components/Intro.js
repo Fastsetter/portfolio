@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../../styles/Intro.module.css";
 
-// import Image from "next/image";
-
+import Image from "next/image";
+import svg1 from "../../public/undraw_Specs_re_546x.svg"
+import mobile from "../../public/pexels-pnw-production-8490067.jpg"
 const Intro = () => {
+  
+  const [img2,setImg2]=useState({
+    position:'absolute',
+    left:'0%',
+  })
+
   return (
     <div className={styles.outerContainer}>
-      <div className={styles.background}></div>
+
+      {/*<div className={styles.background}>*/}
+
+      {/*</div>*/}
       <div className={styles.intro}>
         <div className={styles.textIntro}>
           <h1>Hi There. I am </h1>
@@ -23,9 +33,9 @@ const Intro = () => {
             I am a Student and I am learning how to Code
           </p>
         </div>
-        <div className={styles.image}>
-          <img src="/undraw_Specs_re_546x.svg" alt="" className={styles.svg1} />
-        </div>
+        {/*<div className={styles.image}>*/}
+        {/*  <Image src={svg1} height={200} width={250}/>*/}
+        {/*</div>*/}
       </div>
       
     </div>
