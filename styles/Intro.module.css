@@ -58,13 +58,13 @@
 
 .paragraph{
   position:absolute;
-  width: 100%;
+  width: 120%;
   font-size: 18px;
-  bottom:-60%;
-  color: rgb(226, 110, 201);
-  font-family: 'Klee One', cursive;
+  bottom:-63%;
+  color: rgb(233, 203, 33);
+  font-family: 'Indie Flower', cursive;
   text-align: center;
-  padding-right:18px;
+  padding-right:10px;
 }
 .showcaseImg{
   padding-top: 50px;
@@ -73,12 +73,14 @@
 
 }
 .textIntro>h1{
-  color: #c4c4c4;
+  color: #ffffff;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 40px;
   margin: 0%;
   margin-top: 6.5px;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Caveat', cursive;
+
 }
 .dynamicTxt{
   height: 5%;
@@ -128,7 +130,8 @@
 .span{
   font-size: 35px;
   position: relative;
-  color: rgb(65, 67, 203);
+  /* color: rgb(65, 67, 203); */
+  color: rgb(250, 82, 138);
   font-family: 'Lobster', cursive;
 }
 
@@ -166,8 +169,8 @@
   z-index: 3;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:550px){
   .outerContainer{
-    background-attachment: unset;
+    background: url("/blob-scene-haikei (2).svg") no-repeat center center;
   }
 }

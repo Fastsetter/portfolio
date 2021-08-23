@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import styles from "../../styles/Intro.module.css";
 
 import Image from "next/image";
-import svg1 from "../../public/undraw_Specs_re_546x.svg"
-import mobile from "../../public/pexels-pnw-production-8490067.jpg"
+
+
 const Intro = () => {
   
   const [img2,setImg2]=useState({
