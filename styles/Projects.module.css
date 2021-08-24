@@ -9,13 +9,8 @@
   height: 200vh;
   z-index: 20;
 
-
 }
 
-.curveBack{
-  background:  url("/layered-waves-haikei(1).svg") no-repeat center center fixed;
-
-}
 
 
 .spacer{
@@ -42,7 +37,7 @@
   padding: 10px;
   height: max-content;
   width: 500px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -50,14 +45,15 @@
   margin-bottom: 50px;
   box-shadow: 5px 10px 20px rgba(196, 185, 185, 0.35);
   z-index: 10;
-  background-color: rgb(255, 228, 110);
+  /* background-color: rgb(255, 228, 110); */
+  background-color:#fddf57;
   /* background-color: #F64C72; */
 }
 
 
 .project>h1{
   font-size: large;
-  color: black;
+  color: rgb(0, 0, 0);
   margin-bottom: 0px;
 }
 .project>p{
@@ -85,7 +81,7 @@
 }
 
 .buttons>button{
-  background: rgb(20, 13, 58);
+  background: rgb(31, 27, 27);
   border-radius: 10px;
   border: none;
   padding: 10px;

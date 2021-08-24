@@ -9,17 +9,18 @@
   height: 800px;
   padding: 0px;
   overflow: hidden;
-  /* aspect-ratio: 900/600; */
+
 }
 
 
 .intro{
   
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  height: 70%;
+  height: 100%;
   width: 100%;
 }
 .mob{
@@ -47,15 +48,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: max-content;
-  width: 500px;
+  /* height: 100%; */
+  width: 100%;
   margin: 0%;
   padding: 10px;
   z-index: 10;
 }
 
 
-.paragraph{
+/* .paragraph{
   position:absolute;
   width: 120%;
   font-size: 18px;
@@ -64,6 +65,18 @@
   font-family: 'Indie Flower', cursive;
   text-align: center;
   padding-right:10px;
+} */
+
+
+
+.quote{
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 25px;
+  width: 50%;
+  /* font-display: swap; */
+  text-align: center;
 }
 .showcaseImg{
   padding-top: 50px;
@@ -173,6 +186,6 @@
     background: url("/blob-scene-haikei (2).svg") no-repeat center center;
   }
   .intro{
-    height: 70%;
+    height: 84%;
   }
 }

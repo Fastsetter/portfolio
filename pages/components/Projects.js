@@ -4,6 +4,7 @@ import styles from '../../styles/Projects.module.css'
 const Projects = () => {
   return (
     <div className={styles.container}>
+      
       {projects.map(project=>(
         <div className={styles.project} key={project.id}>
 

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100vw;
   height: 800px;
   margin: 100px 0px;
@@ -20,7 +21,20 @@
   -o-background-size: cover;
   background-size: cover;
 }
+.paragraph{
 
+  font-family: 'Indie Flower', cursive;
+  
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  margin-top: 30px;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: coral;
+  text-align: center;
+
+}
 .showcaseImg>p{
   position: absolute;
   top: 50%;
@@ -36,7 +50,7 @@
 
 @media screen and (max-width:550px){
   .showcase{
-    height: 60vh;
+    height: 600px;
   }
   
 }
