@@ -4,6 +4,11 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  background: url("/blob-scatter-haikei (1).svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   align-items: center;
   padding: 10px;
   height: 200vh;
@@ -26,7 +31,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
 
@@ -46,7 +50,7 @@
   box-shadow: 5px 10px 20px rgba(196, 185, 185, 0.35);
   z-index: 10;
   /* background-color: rgb(255, 228, 110); */
-  background-color:#fddf57;
+  background-color:#fcaa62;
   /* background-color: #F64C72; */
 }
 
@@ -99,5 +103,10 @@
 @media screen and (max-width:550px){
   .project{
     width: 92%;
+    background-color: #fcaa62;
+  }
+  .container{
+    background: inherit;
+
   }
 }
