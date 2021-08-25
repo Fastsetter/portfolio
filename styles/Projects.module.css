@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background: url("/blob-scatter-haikei (1).svg") no-repeat center center fixed;
+  background:linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.507)),url("/blob-scatter-haikei (1).svg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -40,32 +40,35 @@
 .project{
   padding: 10px;
   height: max-content;
-  width: 500px;
+  width: 550px;
   /* border-radius: 10px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 50px;
-  box-shadow: 5px 10px 20px rgba(196, 185, 185, 0.35);
+  box-shadow: 5px 10px 20px rgba(122, 122, 122, 0.35);
   z-index: 10;
   /* background-color: rgb(255, 228, 110); */
-  background-color:#fcaa62;
+  background-color:#464646;
   /* background-color: #F64C72; */
 }
-
+.project:hover{
+  padding-bottom: 10px;
+}
 
 .project>h1{
   font-size: large;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   margin-bottom: 0px;
 }
 .project>p{
   text-align: center;
-  color: #000000;
+  color: #ffffff;
   /* font-family: 'Besley', serif; */
   /* font-size: 18px; */
   font-weight: 500;
+  padding: 0px 10px;
   
 }
 .projectImage{
@@ -85,25 +88,22 @@
 }
 
 .buttons>button{
-  background: rgb(31, 27, 27);
-  border-radius: 10px;
+  background: rgb(22, 17, 70);
+  /* border-radius: 10px; */
   border: none;
   padding: 10px;
   color: rgb(255, 255, 255);
   transition: all 0.8s ease-in-out;
   box-sizing: border-box;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 700;
+  font-size: 15px;
 }
 
-.buttons>button:hover{
-  border-radius: 0;
-  padding-left:15px;
-  padding-right:15px;
-}
 
 @media screen and (max-width:550px){
   .project{
     width: 92%;
-    background-color: #fcaa62;
   }
   .container{
     background: inherit;
