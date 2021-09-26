@@ -55,6 +55,22 @@
   z-index: 10;
 }
 
+.YoutubeChnl{
+
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 36px;
+}
+.ytUrl{
+  /* font-family: 'Caveat', cursive; */
+  color: rgb(238, 142, 64);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  border-bottom: 4px solid rgb(255, 234, 187);
+
+
+}
 
 /* .paragraph{
   position:absolute;
@@ -69,15 +85,6 @@
 
 
 
-.quote{
-  font-family: 'Raleway', sans-serif;
-  font-style: italic;
-  font-weight: 600;
-  font-size: 20px;
-  width: 50%;
-  /* font-display: swap; */
-  text-align: center;
-}
 .showcaseImg{
   padding-top: 50px;
   width:100%;
@@ -87,11 +94,12 @@
 .textIntro>h1{
   color: #ffffff;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 50px;
   margin: 0%;
   margin-top: 6.5px;
   /* font-family: 'Indie Flower', cursive; */
   font-family: 'Caveat', cursive;
+  /* font-family: 'Montserrat', sans-serif; */
 
 }
 .dynamicTxt{
@@ -119,13 +127,14 @@
 .dynamicTxt li{
   position: relative;
   top:0;
-  animation: slide 3s steps(2) infinite;
+  animation: slide 4.5s steps(3) infinite;
   padding-bottom: 11.7px;
 }
 
 @keyframes slide {
+
   100%{
-    top:-125px;
+    top:-210px;
   }
 }
 
@@ -140,7 +149,7 @@
   background:#001220;
 }
 .span{
-  font-size: 35px;
+  font-size: 40px;
   position: relative;
   /* color: rgb(65, 67, 203); */
   color: rgb(255, 235, 119);
@@ -182,6 +191,18 @@
 }
 
 @media screen and (max-width:450px){
+
+  .textIntro>h1{
+    font-size: 40px;
+  }
+
+  .YoutubeChnl{
+    font-size: 30px;
+    width: 65%;
+  }
+  .span{
+    font-size: 38px;
+  }
   .outerContainer{
     background: url("/blob-scene-haikei (2).svg") no-repeat center center;
   }

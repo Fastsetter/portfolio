@@ -25,17 +25,17 @@ const Intro = () => {
               <span className={styles.span}>Chitransh</span>
             </li>
             <li>
+              <span className={styles.span}>Youtuber</span>
+            </li>
+            <li>
               <span className={styles.span}>Developer</span>
             </li>
           </ul>
 
           
         </div>
-        {/*<div className={styles.image}>*/}
-        {/*  <Image src={svg1} height={200} width={250}/>*/}
-        {/*</div>*/}
+        <p className={styles.YoutubeChnl}>Have a visit on my <a href="http://www.youtube.com/channel/UCzRu-XnaVZqJWm4EIAy6Veg" className={styles.ytUrl}>Youtube Channel</a></p>
         
-        <p className={styles.quote}>“Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.”</p>
       </div>
       
     </div>

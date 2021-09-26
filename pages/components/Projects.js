@@ -13,8 +13,9 @@ const Projects = () => {
           <p>{project.description}</p>
 
           <div className={styles.buttons}>
-            <button>Source Code</button>
-            <button>Demo</button>
+            <a href={project.demo} className={styles.button} target="_blank">Demo</a>
+            <a href="#" className={styles.button}>Source Code</a>
+
           </div>
         </div>
       ))}
